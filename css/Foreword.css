@@ -28,15 +28,15 @@ p {
   text-rendering: geometricPrecision;
 }
 
-.photocredit {
-  position: relative;
-  left: 220px;
-  top: -50px;
-  font-size: 15px;
-}
-
 .imagebox {
   display: flex;
+  justify-content: center;
+}
+
+.imagebox2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
@@ -46,10 +46,22 @@ img {
   padding-top: 65px;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 0px;
+}
+
+.photocredit {
+  position: relative;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: 15px;
 }
 
 .lastimage {
-  padding-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 0px;
   width: 600px;
   height: 450px;
 }
