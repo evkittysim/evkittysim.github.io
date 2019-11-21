@@ -109,7 +109,7 @@ const textNodes = [
       {
         text: '< Sleep >',
         nextText: 4,
-        happy: 10,
+        happy: 5,
         chonk: 0
       }
     ]
@@ -181,7 +181,7 @@ const textNodes = [
       {
         text: '< Sleep >',
         nextText: 4,
-        happy: 10,
+        happy: 5,
         chonk: 0
       }
     ]
