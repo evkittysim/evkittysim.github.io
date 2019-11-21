@@ -1,0 +1,80 @@
+body {
+  background-color: #289E49;
+  padding-left: 65px;
+  padding-right: 65px;
+  display: inline-block;
+}
+
+h1 {
+  margin-left: 65px;
+  margin-right: 65px;
+  margin-top: 65px;
+  font-family: "Press Start 2P";
+  font-size: 40px;
+  line-height: 1.5rem;
+  color: white;
+  text-rendering: geometricPrecision;
+  text-align: center;
+}
+
+p {
+  margin-left: 65px;
+  margin-right: 65px;
+  margin-top: 65px;
+  font-family: "Press Start 2P";
+  font-size: 18px;
+  line-height: 1.5rem;
+  color: #cfffdc;
+  text-rendering: geometricPrecision;
+}
+
+.imagebox {
+  display: flex;
+  justify-content: center;
+}
+
+.imagebox2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 225px;
+  height: 300px;
+  padding-top: 65px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 0px;
+}
+
+.photocredit {
+  position: relative;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.lastimage {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  width: 600px;
+  height: 450px;
+}
+
+#link {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 65px;
+}
+
+#link:hover {
+  color: #cfffdc;
+  58f479
+}
